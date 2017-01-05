@@ -13,12 +13,12 @@ try
     $dbsetup->createDatabase($user, $password);         //only creates db if it doesn't exist
     $api_response = getRepoData();                      //get the data from the GitHub api
     $dbsetup->addRepos($api_response);                  //save the data to the newly created table
-    echo "Setup successful.";
+    echo "Setup successful.\n";
 }
 catch(Exception $e)
 {
     $error = $e->getMessage();
-    echo "Setup failed: $error";
+    echo "Setup failed: $error\n";
 }
 
 
