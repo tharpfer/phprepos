@@ -13,16 +13,16 @@ _All of these need to be on the same server._
 
 ##Installation
 
-##Create Virtual Host
+###Create Virtual Host
 Create a virtual host using a web server of your choice.
 
-##Clone Repo
+###Clone Repo
 Clone this repo to the document root of the virtual host from the previous step.
 ```
 git clone git@github.com:tharpfer/phprepos.git
 ```
 
-##Run setup.php
+###Run setup.php
 ```
 php setup.php
 ```
