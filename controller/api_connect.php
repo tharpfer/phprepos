@@ -12,8 +12,7 @@ function getRepoData()
     if ($response === false)
     {
         $error = "CURL ERROR: " .curl_error($ch);
-        echo $error;
-        
+        throw new Exception($error);
     }
     curl_close($ch);
 
