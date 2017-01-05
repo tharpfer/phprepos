@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Repositories - GitHub's Most Starred</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/githubrepos/css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
+    <script src="/githubrepos/js/main.js"></script>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>PHP Repositories</h1>
+        <p>Here you will find GitHub's most starred public PHP projects.<p>
+    </div>
+    <div class="container-fluid">
+        <div id="refresh-row" class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <button type="button" class="btn btn-md btn-success" id="refresh">Refresh</button>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div id="repo-data">
+            %%HTMLROWS%%
+        <div>
+    </div>
+</body>
+</html>
+
+
